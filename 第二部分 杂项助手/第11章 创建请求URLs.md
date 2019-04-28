@@ -17,4 +17,4 @@ var url = ru.Create(new
 > **注意**
 所有值都将进行URL编码。
 
-`RequestUrl`在创建用于建模特定于域的URL结构的扩展方法时，它非常有用。有关示例，请参阅[Authorize Endpoint](https://github.com/thinksjay/IdentityModel/blob/master/%E7%AC%AC%E4%B8%80%E9%83%A8%E5%88%86%20%E5%8D%8F%E8%AE%AE%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%BA%93/%E7%AC%AC2%E7%AB%A0%20%E6%8E%88%E6%9D%83%E7%AB%AF%E7%82%B9(Authorize%20Endpoint).md)和[EndSession Endpoint]()。
+`RequestUrl`在创建用于建模特定于域的URL结构的扩展方法时，它非常有用。有关示例，请参阅[Authorize Endpoint](https://github.com/thinksjay/IdentityModel/blob/master/%E7%AC%AC%E4%B8%80%E9%83%A8%E5%88%86%20%E5%8D%8F%E8%AE%AE%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%BA%93/%E7%AC%AC2%E7%AB%A0%20%E6%8E%88%E6%9D%83%E7%AB%AF%E7%82%B9(Authorize%20Endpoint).md)和[EndSession Endpoint](https://github.com/thinksjay/IdentityModel/blob/master/%E7%AC%AC%E4%B8%80%E9%83%A8%E5%88%86%20%E5%8D%8F%E8%AE%AE%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%BA%93/%E7%AC%AC3%E7%AB%A0%20%E7%BB%93%E6%9D%9F%E4%BC%9A%E8%AF%9D%E7%AB%AF%E7%82%B9(EndSession%20Point).md)。
