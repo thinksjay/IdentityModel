@@ -23,7 +23,7 @@ var response = await client.RequestTokenAsync(new TokenRequest
 });
 ```   
 
-响应的`TokenResponse`类型，并且具有用于标准令牌响应参数等属性`access_token`，`expires_in`等等。你也可以访问原始响应以及对已解析JSON的文档（通过`Raw`和`Json`属性）。
+响应属于`TokenResponse`类型并且具有用于标准令牌响应参数等属性`access_token`，`expires_in`等等。你也可以访问原始响应以及对已解析JSON的文档（通过`Raw`和`Json`属性）。
 
 在使用响应之前，您应该始终检查`IsError`属性以确保请求成功：
 
