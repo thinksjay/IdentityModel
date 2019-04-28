@@ -1,7 +1,7 @@
 # 第2章 授权端点(Authorize Endpoint)
 对于大多数情况，[OAuth 2.0](https://tools.ietf.org/html/rfc6749#section-3.1)和[OpenID Connect](https://openid.net/specs/openid-connect-core-1_0.html#AuthorizationEndpoint)授权端点的GET请求需要具有许多查询字符串参数。
 
-虽然您可以使用任何方法创建带参数的URL来创建正确的字符串，但[RequestUrl]()类是完成此任务的简单帮助程序。
+虽然您可以使用任何方法创建带参数的URL来创建正确的字符串，但[RequestUrl](https://github.com/thinksjay/IdentityModel/blob/master/%E7%AC%AC%E4%BA%8C%E9%83%A8%E5%88%86%20%E6%9D%82%E9%A1%B9%E5%8A%A9%E6%89%8B/%E7%AC%AC11%E7%AB%A0%20%E5%88%9B%E5%BB%BA%E8%AF%B7%E6%B1%82URLs.md)类是完成此任务的简单帮助程序。
 
 特别是，您可以使用`CreateAuthorizeUrl`扩展方法为授权端点创建URL - 它支持最常用的参数：
 
